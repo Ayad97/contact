@@ -1,0 +1,72 @@
+body, .btn
+{
+	font-family:   'Trebuchet MS', Helvetica, sans-serif;
+	letter-spacing: 1px !important;
+	font-weight: bold !important;
+}
+h1 {
+	font-size: 60px;
+}
+
+/*start form*/
+form {
+		max-width: 500px;
+		margin: 20px auto;
+	}
+
+
+form input ,
+form textarea{
+	margin-bottom: 5px;
+	
+}
+
+form textarea {
+	height: 150px !important;
+
+}
+.contact-form .form-group {
+	margin-bottom: 0;
+	position: relative;
+}
+
+
+.contact-form .form-group .astrisc {
+	float: right;
+	height: 0;
+	font-size: 20px;
+	color: #f00;
+	position: absolute;
+	right: 8px;
+	top: 7px;
+}
+
+.contact-form .custom-alert {
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	display: none;
+}
+.contact-form input:not([type='submit']) + i{
+	height: 0; 
+	float: left;
+	position: relative;
+	top: -29px;
+	left: 10px;
+	color: #999;
+}
+.contact-form input {
+	padding-left: 30px
+}
+
+
+
+.contact-form .send-i {
+	display: block;
+	position: relative;
+	top: -23px;
+	left: 10px;
+	color: #fff;
+	
+}
+
+/*end form*/
